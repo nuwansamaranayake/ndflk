@@ -1,5 +1,6 @@
-# Traefik dynamic config (file provider). Copy to the host's dynamic config folder, e.g. /etc/traefik/dynamic/ndflk.yml
-# Assumes a certificate resolver named "letsencrypt" and an entrypoint "websecure" (443), as used for aigniteconsulting.ai.
+# Traefik dynamic config (file provider). Copy to /etc/traefik/dynamic/ndflk.yml on srv1033016.
+# Matches the host's Traefik v3 (root-traefik-1, host network, static config as CLI args in /root/docker-compose.yml):
+# entrypoints "web" (:80) and "websecure" (:443), certificate resolver "mytlschallenge" (checked 2026-10-19).
 http:
   routers:
     ndflk:
@@ -7,7 +8,7 @@ http:
       entryPoints: ["websecure"]
       service: ndflk
       tls:
-        certResolver: letsencrypt
+        certResolver: mytlschallenge
       middlewares: ["ndflk-www-redirect"]
     ndflk-http:
       rule: "Host(`ndflk.org`) || Host(`www.ndflk.org`)"
