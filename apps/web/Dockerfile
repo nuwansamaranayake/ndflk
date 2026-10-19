@@ -40,6 +40,7 @@ COPY --from=build /app/node_modules/split2 ./node_modules/split2
 COPY --from=build /app/node_modules/xtend ./node_modules/xtend
 COPY --from=build /corpus /corpus
 COPY db/migrations /app/db/migrations
+COPY scripts/smoke.mjs /app/scripts/smoke.mjs
 ENV MIGRATIONS_DIR=/app/db/migrations
 RUN mkdir -p /app/.next/cache && chown -R ndf:ndf /app/.next/cache
 USER ndf

@@ -1,0 +1,47 @@
+# Production on srv1033016 (Traefik already runs on the host with a file provider).
+# Usage on the VPS: cd /opt/ndflk && docker compose -f deploy/docker-compose.prod.yml --env-file deploy/.env up -d --build
+services:
+  ndflk-db:
+    image: pgvector/pgvector:pg17
+    container_name: ndflk-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    volumes: ["ndflk_db:/var/lib/postgresql/data"]
+    networks: [ndflk]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+  ndflk-web:
+    build:
+      context: ..
+      dockerfile: apps/web/Dockerfile
+      args: { APP_VERSION: "${APP_VERSION:-prod}" }
+    image: ndflk-web:${APP_VERSION:-prod}
+    container_name: ndflk-web
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@ndflk-db:5432/${POSTGRES_DB}
+      SITE_URL: https://ndflk.org
+      SMTP_HOST: ${SMTP_HOST:-}
+      SMTP_PORT: ${SMTP_PORT:-25}
+      NOTIFY_TO: ${NOTIFY_TO:-}
+      MAIL_FROM: ${MAIL_FROM:-site@ndflk.org}
+      ADMIN_EMAIL: ${ADMIN_EMAIL}
+      ADMIN_TOKEN: ${ADMIN_TOKEN}
+      APP_VERSION: ${APP_VERSION:-prod}
+    volumes: ["ndflk_uploads:/data/uploads"]
+    ports: ["127.0.0.1:3080:3000"]   # Traefik on the host proxies ndflk.org -> 127.0.0.1:3080
+    networks: [ndflk]
+    depends_on:
+      ndflk-db: { condition: service_healthy }
+volumes:
+  ndflk_db:
+  ndflk_uploads:
+networks:
+  ndflk:
+    name: ndflk

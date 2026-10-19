@@ -1,0 +1,31 @@
+# Traefik dynamic config (file provider). Copy to the host's dynamic config folder, e.g. /etc/traefik/dynamic/ndflk.yml
+# Assumes a certificate resolver named "letsencrypt" and an entrypoint "websecure" (443), as used for aigniteconsulting.ai.
+http:
+  routers:
+    ndflk:
+      rule: "Host(`ndflk.org`) || Host(`www.ndflk.org`)"
+      entryPoints: ["websecure"]
+      service: ndflk
+      tls:
+        certResolver: letsencrypt
+      middlewares: ["ndflk-www-redirect"]
+    ndflk-http:
+      rule: "Host(`ndflk.org`) || Host(`www.ndflk.org`)"
+      entryPoints: ["web"]
+      service: ndflk
+      middlewares: ["ndflk-https-redirect"]
+  middlewares:
+    ndflk-https-redirect:
+      redirectScheme:
+        scheme: https
+        permanent: true
+    ndflk-www-redirect:
+      redirectRegex:
+        regex: "^https://www\\.ndflk\\.org/(.*)"
+        replacement: "https://ndflk.org/${1}"
+        permanent: true
+  services:
+    ndflk:
+      loadBalancer:
+        servers:
+          - url: "http://127.0.0.1:3080"
