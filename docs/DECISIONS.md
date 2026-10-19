@@ -23,5 +23,7 @@ Dates are when the decision was made. Versions were checked against the npm regi
 | 2026-10-19 | Rate limiting in process memory | One container. Move to Postgres if scaled out. |
 | 2026-10-19 | External links for IIMI papers: CGSpace handles 10568/37945 and 10568/39134 (checked 19 October 2026). PDFs not hosted | Copyright, brief section 7. |
 | 2026-10-19 | Production: Docker Compose on srv1033016, web bound to 127.0.0.1:3080, Traefik file-provider route in `deploy/traefik-ndflk.yml` | Matches the host's existing Traefik setup (file provider). |
+| 2026-10-19 | Traefik route uses entrypoints `web`/`websecure` and cert resolver `mytlschallenge`; route file installed as `/etc/traefik/dynamic/ndflk.yml` | Read from the running Traefik v3.6.7 (CLI args in `/root/docker-compose.yml`) and its API. The host has no `letsencrypt` resolver. |
+| 2026-10-19 | Production `SMTP_HOST` left empty. Form notifications are not emailed; submissions are stored in Postgres and read via `/api/admin/messages` | No SMTP relay runs on srv1033016 and no other app there uses one (RecallWatch uses the Resend HTTP API). Set `SMTP_HOST` once a provider is chosen. |
 
 Not verified here: Lighthouse scores on a throttled mobile profile (run on the live site); native review of Sinhala; the exact licence of the IIMI papers (linked, not hosted, so no exposure).
