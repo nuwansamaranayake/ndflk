@@ -1,0 +1,6 @@
+# Override for local testing where the Docker build cannot reach npm: uses the prebuilt image.
+services:
+  web:
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile.prebuilt

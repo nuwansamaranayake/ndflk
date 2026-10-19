@@ -1,0 +1,40 @@
+# Local development and test. Production uses deploy/docker-compose.prod.yml.
+services:
+  db:
+    image: pgvector/pgvector:pg17
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-ndf}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-ndf_dev_password}
+      POSTGRES_DB: ${POSTGRES_DB:-ndf}
+    ports: ["5433:5432"]
+    volumes: ["ndf_db:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-ndf} -d ${POSTGRES_DB:-ndf}"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+  mailhog:
+    image: mailhog/mailhog:v1.0.1
+    ports: ["8025:8025"]
+  web:
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile
+      args: { APP_VERSION: "${APP_VERSION:-local}" }
+    environment:
+      DATABASE_URL: postgres://${POSTGRES_USER:-ndf}:${POSTGRES_PASSWORD:-ndf_dev_password}@db:5432/${POSTGRES_DB:-ndf}
+      SITE_URL: http://localhost:3000
+      SMTP_HOST: mailhog
+      SMTP_PORT: "1025"
+      NOTIFY_TO: ${NOTIFY_TO:-team@ndflk.org}
+      MAIL_FROM: site@ndflk.org
+      ADMIN_EMAIL: ${ADMIN_EMAIL:-admin@ndflk.org}
+      ADMIN_TOKEN: ${ADMIN_TOKEN:-dev_admin_token_change_me}
+      APP_VERSION: ${APP_VERSION:-local}
+    ports: ["3000:3000"]
+    volumes: ["ndf_uploads:/data/uploads"]
+    depends_on:
+      db: { condition: service_healthy }
+volumes:
+  ndf_db:
+  ndf_uploads:

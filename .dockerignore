@@ -1,0 +1,7 @@
+**/.next/cache
+.git
+backup
+corpus/held
+deploy/.env
+.env
+apps/web/node_modules/.cache

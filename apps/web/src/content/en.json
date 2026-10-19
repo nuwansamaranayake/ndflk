@@ -1,0 +1,771 @@
+{
+  "meta": {
+    "siteName": "National Development Foundation",
+    "siteShort": "NDF",
+    "siteNameLocal": "ජාතික සංවර්ධන පදනම",
+    "tagline": "Villagers decide. NDF helps them organise, build and sustain.",
+    "taglineNote": "Working line. The revival team will confirm the final wording.",
+    "description": "The National Development Foundation (NDF) is a Sri Lankan village development organisation founded in 1979 and registered in 1981. It is being revived in 2026. Read the history, the evidence and how to take part.",
+    "localeName": "English",
+    "localeNameSi": "සිංහල"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "story": "Our story",
+    "approach": "Objectives and approach",
+    "governance": "Governance",
+    "constitution": "Constitution",
+    "legal": "Legal standing",
+    "upali": "Upali Magedaragamage",
+    "programmes": "Programmes",
+    "tank": "Tank renovation",
+    "library": "Library",
+    "getInvolved": "Get involved",
+    "recordsWanted": "Records wanted",
+    "news": "News",
+    "contact": "Contact",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "menu": "Menu",
+    "close": "Close",
+    "skip": "Skip to content",
+    "language": "Language"
+  },
+  "banner": {
+    "title": "Revival in progress",
+    "text": "The National Development Foundation is being restarted in 2026. This site was published on 19 October 2026 and is being updated as records are found.",
+    "link": "How to help"
+  },
+  "common": {
+    "readMore": "Read more",
+    "source": "Source",
+    "sources": "Sources",
+    "asOf": "As recorded in about",
+    "recordsWanted": "Records wanted",
+    "recordsWantedText": "We hold no report, photograph or account for this programme yet. If you worked on it or have papers, tell us.",
+    "tellUs": "Tell us what you have",
+    "illustration": "Illustration. Not an archive photograph.",
+    "machineRead": "Machine-read text. May contain errors.",
+    "transcribed": "Transcribed from a scan. Needs a human check.",
+    "retypedDraft": "Retyped draft for review, October 2026",
+    "notKnown": "Not known",
+    "toBeConfirmed": "To be confirmed",
+    "reported": "Reported, not yet documented",
+    "family": "Family statement, no document yet",
+    "verified": "Verified from a primary record",
+    "openOriginal": "Open the original",
+    "viewInLibrary": "View in the library",
+    "backTo": "Back to",
+    "period": "Period",
+    "value": "Value",
+    "funder": "Support",
+    "programme": "Programme",
+    "year": "Year",
+    "type": "Type",
+    "languageLabel": "Language",
+    "all": "All",
+    "search": "Search",
+    "searchPlaceholder": "Search titles, summaries and text",
+    "noResults": "No records match this search. Try fewer words, or browse by year.",
+    "loadError": "We could not load this content. Please try again in a moment.",
+    "required": "Required",
+    "optional": "Optional",
+    "send": "Send",
+    "sending": "Sending",
+    "sent": "Thank you. We have received your message.",
+    "sendError": "We could not send your message. Please try again, or email us.",
+    "emailFormat": "Enter an email address in the right format, like name@example.com",
+    "phoneFormat": "Enter a Sri Lankan number like +94 7X XXX XXXX or 07X XXX XXXX",
+    "consent": "I agree that NDF stores this message and contacts me about it. See the privacy notice.",
+    "consentRequired": "Please tick the consent box so we may store and answer your message.",
+    "rupees1980s": "Rupee values are in the money of the time. They are not converted.",
+    "draftLabel": "Draft",
+    "translationNotice": "This page has not yet been reviewed in Sinhala. It is shown in English.",
+    "lastUpdated": "Last updated",
+    "scrollTop": "Back to top"
+  },
+  "home": {
+    "eyebrow": "National Development Foundation, Sri Lanka",
+    "title": "Forty years of village development. Starting again in 2026.",
+    "lede": "NDF helped farmers in Kurunegala, Puttalam, Minipe and Moneragala repair tanks, build biogas units, form societies and plan their own villages. The family and friends of its late Executive Secretary are restarting it. This site holds the record so far.",
+    "ctaStory": "Read the history",
+    "ctaProgrammes": "See the programmes",
+    "ctaInvolved": "Take part",
+    "proofEyebrow": "The record in numbers",
+    "proofTitle": "What the documents show",
+    "proof": [
+      { "value": "1979", "label": "Year NDF was established", "ref": "NDF-PRG-003" },
+      { "value": "1981", "label": "Registered under the Societies Ordinance, notice No. 297", "ref": "NDF-FND-002" },
+      { "value": "10", "label": "Village tanks renovated in Kurunegala, 1984 to 1987", "ref": "NDF-PRG-002" },
+      { "value": "+20%", "label": "Rise in irrigated command area across the ten tanks", "ref": "NDF-PRG-002" },
+      { "value": "200+", "label": "People's organisations formed by about 1997", "ref": "NDF-PRF-001" },
+      { "value": "40", "label": "Programmes and activities listed from 1980 onward", "ref": "NDF-ACT-001" }
+    ],
+    "routesEyebrow": "Start here",
+    "routes": [
+      { "title": "Our story", "text": "From a 1979 start in Kohuwala to tank bunds in Kurunegala, and the gap in the record we are now filling.", "href": "/about/story", "img": "records.jpg" },
+      { "title": "Programmes", "text": "Irrigation, biogas, buffalo and seed banks, dairy, environment, children's societies and participatory training.", "href": "/programmes", "img": "biogas.jpg" },
+      { "title": "Get involved", "text": "Former staff, farmers, funders, researchers and family. There is a role for each of you.", "href": "/get-involved", "img": "farmer-society.jpg" }
+    ],
+    "approachEyebrow": "The approach",
+    "approachTitle": "No model. The village decides.",
+    "approachText": "NDF did not bring a project to a village. It helped the village find its resources, form a society, and ask for only the help it could not supply itself. An outside reviewer in 1990 noted that NDF \"has no model\" and lets the community choose the type of project.",
+    "approachRef": "NDF-PRG-003",
+    "approachLink": "Objectives and approach",
+    "flagshipEyebrow": "Flagship evidence",
+    "flagshipTitle": "Tank renovation, Kurunegala, 1984 to 1987",
+    "flagshipText": "Ten village tanks. More than 170 farm families. Command area up from 185.5 to 222.5 acres. Rice yields above 5,000 kg per hectare in six of ten tanks after the work. Evaluated by the International Irrigation Management Institute.",
+    "flagshipLink": "Read the evidence",
+    "revivalEyebrow": "2026",
+    "revivalTitle": "We are restarting NDF",
+    "revivalText": "The foundation went quiet after the 1990s. Its Executive Secretary, Upali Magedaragamage, kept the papers and the registration until his death. His family and friends are now reviving the organisation. The first jobs are to confirm its legal standing, find the missing records, and reconnect with the people who did the work.",
+    "revivalLink": "Read the revival update",
+    "recordsTitle": "Help us complete the record",
+    "recordsText": "We have three registration records, two evaluations of the tank work, a 1997 profile, the constitution and a list of activities. We are missing annual reports, photographs, council lists and anything from 1995 to 2021.",
+    "newsletterTitle": "Stay in touch",
+    "newsletterText": "A short email when there is news. No more than once a month.",
+    "newsletterCta": "Subscribe",
+    "newsletterEmail": "Email address",
+    "newsletterDone": "Thank you. Please check your inbox and confirm your email.",
+    "libraryEyebrow": "Library",
+    "libraryTitle": "Read the original documents",
+    "libraryText": "Gazette notices, registration certificates, evaluation papers and the constitution, with transcriptions and notes on text quality.",
+    "libraryLink": "Open the library"
+  },
+  "story": {
+    "eyebrow": "About NDF",
+    "title": "Our story",
+    "lede": "A timeline built from the documents we hold. Where the record is thin, we say so.",
+    "intro": "The National Development Foundation was established in 1979 as a non-profit, non-political, voluntary organisation. Its work was village development: irrigation, farming, credit, small enterprise, animal husbandry, women's and children's programmes, nature conservation, health and water. This page follows what the records say, year by year.",
+    "timeline": [
+      { "year": "1979", "title": "NDF is established", "text": "Papers from 1990 and 1991 describe NDF as founded in 1979 as a non-profit, non-political voluntary organisation. The family remembers Upali Magedaragamage as the person who started it.", "refs": ["NDF-PRG-002", "NDF-PRG-003"], "state": "confirmed" },
+      { "year": "1980", "title": "First work at Minipe", "text": "Tree planting and environmental conservation on the south bank of the Minipe canal, and water management in its paddy fields. A buffalo bank is set up. A water management and reforestation programme supported by the Australian Freedom From Hunger Campaign runs from 1980 to 1983.", "refs": ["NDF-ACT-001", "NDF-PRF-001"], "state": "confirmed" },
+      { "year": "1981", "title": "Gazetted and registered", "text": "On 24 July 1981 the Gazette carries the Acting Minister of Trade and Shipping's notification authorising the society's purpose under the Societies Ordinance. On 15 December 1981 the Registrar of Societies registers the society, notice No. 297, at No. 5, S.D.S. Jayasinghe Mawatha, Kohuwala, Nugegoda.", "refs": ["NDF-FND-001", "NDF-FND-002"], "state": "confirmed" },
+      { "year": "1982", "title": "Biogas and integrated farming", "text": "A biogas and integrated farming programme begins in the Kandy, Matale and Kurunegala districts, later spreading into Mahaweli System C. Supporters named are the Australian Freedom From Hunger Campaign, the Foundation for International Training (Canada), the Central Bank of Sri Lanka, the Bank of Ceylon and the People's Bank. It runs to 1988.", "refs": ["NDF-PRF-001", "NDF-ACT-001"], "state": "confirmed" },
+      { "year": "1984", "title": "Tank renovation begins", "text": "NDF starts 16 selected tank projects in Kurunegala District. Phase I runs to 1987 and completes ten tanks. Children's societies and child development programmes begin the same year.", "refs": ["NDF-PRG-002", "NDF-ACT-001"], "state": "confirmed" },
+      { "year": "1987", "title": "Constitution amended", "text": "At the annual general meeting on 7 September 1987 at No. 91, Pagoda Road, Nugegoda, members amend the constitution. The Management Council becomes seven elected members with one Vice Chairman.", "refs": ["NDF-CON-001"], "state": "confirmed" },
+      { "year": "1989", "title": "Upali presents NDF's work at Digana", "text": "At the IIMI and ARTI workshop on NGOs and minor irrigation, 17 and 18 March 1989, Upali Magedaragamage presents a paper on NDF's tank renovation. The Muthukandiya rehabilitation programme in Moneragala begins with Australian support.", "refs": ["NDF-PRG-003", "NDF-PRF-001"], "state": "confirmed" },
+      { "year": "1990", "title": "Published and evaluated", "text": "IIMI Working Paper 18 publishes the workshop proceedings. An IIMI evaluation by M.H.S. Dayaratne follows in about 1991. It finds that NDF's approach made farmers owners of their systems.", "refs": ["NDF-PRG-003", "NDF-PRG-002"], "state": "confirmed" },
+      { "year": "1994", "title": "Registered as an NGO", "text": "The Department of Social Services registers NDF as a non-governmental organisation, No. 0025, with effect from 25 March 1994.", "refs": ["NDF-FND-003"], "state": "confirmed" },
+      { "year": "1997", "title": "Eighteen years of experience", "text": "An introduction booklet lists nine projects worth about Rs 35 million, a staff of 28, and work with 42 farmer organisations, six women's societies, 20 children's societies and one farmer company in Kurunegala and Puttalam.", "refs": ["NDF-PRF-001"], "state": "confirmed" },
+      { "year": "1998 to 2021", "title": "Records being collected", "text": "The activities list mentions tank work to 2000 and village programmes to 1999. After that we hold no annual report, account or letter. If you worked with NDF in these years, tell us.", "refs": [], "state": "gap" },
+      { "year": "2022", "title": "Still active on paper", "text": "A letter on NDF letterhead and a biogas costing sheet show the foundation was still operating in 2022, with Upali Magedaragamage as Executive Secretary.", "refs": ["NDF-PRG-001"], "state": "confirmed" },
+      { "year": "2026", "title": "Revival", "text": "After Upali's death, his family and friends decide to restart NDF. The first steps are this website, a search for records, and confirmation of legal standing.", "refs": [], "state": "reported" }
+    ],
+    "gapTitle": "The gap in the record",
+    "gapText": "We have nothing from 1998 to 2021 except the two 2022 documents. This is not because nothing happened. It is because the papers have not yet been found. Former staff, council members, funders and farmers can close this gap."
+  },
+  "approach": {
+    "eyebrow": "About NDF",
+    "title": "Objectives and approach",
+    "lede": "What NDF set out to do, in its own words, and how it worked in the villages.",
+    "aimsTitle": "Aims of the Foundation",
+    "aimsNote": "From Article 5 of the constitution. Wording as typed in the original, with typing slips corrected.",
+    "aims": [
+      "Conservation, development and educating the people to make equitable use of national resources.",
+      "Organisation of agrarian life, attainment of the country's self sufficiency through rural development and conducting dedicated work to cultivate a spirit of self reliance among the peasants.",
+      "Instillation of an awareness of their rights in the minds of Sri Lankan citizens, leading the people in the spirit of unity and fraternity toward the fulfilment of varied functions that become necessary in the process of conservation and development of national resources.",
+      "Creation of a definite pattern of education with the religious centres at its head, for the purpose of promoting spiritual and material development.",
+      "Establishment of a sense of discipline and a state of self-governing among the people through the improvement of their religious, cultural, social and economic standards.",
+      "Getting the people acquainted with the rational utilisation of the public funds allocated by the State for their benefit.",
+      "Adopting necessary measures to protect the national environment.",
+      "Accomplishment of the tasks that help to move toward an improvement of the masses.",
+      "Organisation and execution of all activities that deem necessary for the protection of the consumer.",
+      "Adoption of all measures conducive to the preservation of natural, creative, economic and moral wealth and extension of support for such measures by voluntary and state bodies.",
+      "Maintaining relations with national and international organisations in the intent of securing the aforementioned aims."
+    ],
+    "objectives1990Title": "Objectives as stated in 1990",
+    "objectives1990Note": "From Upali Magedaragamage's workshop paper. These are the working objectives NDF used in the field.",
+    "objectives1990": [
+      "Build villagers' self-confidence to handle their own political, economic, cultural and social affairs.",
+      "Help villagers identify and mobilise their resources with the least external help.",
+      "Help villagers know their strength and rights, and demand them.",
+      "Mobilise villagers at grassroots level through trained change agents.",
+      "Build a village-based people's institution that coordinates farmers and officials, and train a team of local youths."
+    ],
+    "visionTitle": "Vision and mission, about 1997",
+    "visionNote": "From the NDF introduction booklet. The revival team will confirm whether this wording continues.",
+    "vision": "An empowered, just and free society where people live in equanimity and enjoy socio-economic, political, religio-cultural and social rights equally.",
+    "mission": [
+      "Work together with Sri Lankan citizens in close brotherhood to build awareness of sustainable development and the conservation and improvement of national resources.",
+      "Help people recognise, respect and establish each other's socio-economic, religio-cultural and political values.",
+      "Build awareness among the people to carry out all activities for spiritual and material development.",
+      "Keep relations with national and international organisations and networks, and work in training, research and media.",
+      "Work for the sustainable establishment of the Foundation itself."
+    ],
+    "goalsTitle": "Goals, about 1997",
+    "goals": [
+      "Develop political, social, economic, religious, cultural and environmental sustainability.",
+      "Awaken the people's potential.",
+      "Help people organise themselves.",
+      "Link, network and research with persons, families and organisations.",
+      "Make NDF itself sustainable."
+    ],
+    "methodTitle": "How a tank project worked",
+    "methodNote": "The six steps NDF followed in Kurunegala, as described in 1989.",
+    "method": [
+      { "title": "Socioeconomic survey", "text": "NDF staff and local youths survey the village: land, families, income, who farms where." },
+      { "title": "Farmer society", "text": "Villagers form their own society. In one tank this took nine months. NDF waited." },
+      { "title": "Technical survey", "text": "A survey of the tank with Department of Agrarian Services staff, who gave their time free. NDF paid food and transport." },
+      { "title": "Ratification meeting", "text": "The society reviews the plan and agrees to the work and its own contribution." },
+      { "title": "Proposal to funders", "text": "The NDF head office sends the proposal to funders, mainly the Australian Freedom From Hunger Campaign." },
+      { "title": "Work and tank fund", "text": "Farmers do the earthwork. Each member pays half to one bushel of unmilled rice a season into a tank fund for future repairs." }
+    ],
+    "selectionTitle": "How tanks were chosen",
+    "selection": [
+      "Capacity of the tank",
+      "Economic position of the community",
+      "Farmers' wish for outside help",
+      "No help available from any other source",
+      "Pattern of land ownership"
+    ],
+    "methodologiesTitle": "Participatory methods, about 1997",
+    "methodologiesNote": "The booklet lists the methods NDF practised and trained others in. The activities list credits NDF with introducing Participatory Rural Appraisal to Sri Lanka, working with Robert Chambers, and participatory monitoring and evaluation, working with Alexandra Stephens.",
+    "methodologies": [
+      "Self evaluation",
+      "Participatory Rural Appraisal (PRA)",
+      "Participatory Action Research (PAR)",
+      "Participatory Monitoring and Evaluation (PME)",
+      "Participatory Technology Development (PTD)",
+      "Participatory Strategic Planning (PSP)",
+      "Participatory Interactive Development"
+    ],
+    "independentTitle": "What outsiders said",
+    "independent": [
+      { "who": "M.H.S. Dayaratne, IIMI, about 1991", "text": "The NDF approach made farmers owners of the systems and moved them toward self-management, in contrast to assistance programmes that kept communities in a dependency trap.", "ref": "NDF-PRG-002" },
+      { "who": "Vimaladharma, 1990", "text": "Compared NDF with the statutory Freedom From Hunger Campaign Board. NDF has no model. The community decides the type of project.", "ref": "NDF-PRG-003" },
+      { "who": "Perera, 1988", "text": "An outside consultant's assessment of the Kurunegala tank work, cited in the IIMI evaluation. We do not hold the text.", "ref": "NDF-PRG-002" }
+    ]
+  },
+  "governance": {
+    "eyebrow": "About NDF",
+    "title": "Governance",
+    "lede": "How NDF is run under its constitution, and who has held office.",
+    "intro": "NDF is a membership society. Members meet in a General Congress at least once a year. The Congress elects a Management Council, which elects its own officers. An Advisory Council of professionals advises the Management Council. A Coordinating Committee runs the field work.",
+    "structureTitle": "Structure under the constitution",
+    "structure": [
+      { "title": "General Congress", "text": "Open to all members. Meets at least once a year. Elects the Management Council, appoints auditors and adopts the audited accounts and the work report. Quorum is one quarter of the membership. Two thirds of members present are needed to amend the constitution." },
+      { "title": "Management Council", "text": "Seven members elected by the Congress since the 1987 amendment (fifteen before that). At its first meeting it elects a Chairman, a Vice Chairman, a Treasurer and an Executive Secretary. Meets at least once in three months. Quorum five." },
+      { "title": "Executive Secretary", "text": "Elected by the Council for one year. Keeps the records and the membership register, convenes meetings, carries out Council directives and runs the administration." },
+      { "title": "Treasurer", "text": "Elected by the Council for one year. Collects and keeps the money, maintains accounts and inventories, and presents an audited balance sheet each year." },
+      { "title": "Advisory Council", "text": "Professionals and competent people chosen by the Management Council for one year. Meets at least once in three months and advises the Council." },
+      { "title": "Coordinating Committee", "text": "Coordinators appointed by the Management Council to carry out the aims in the field. Meets at least once a month. Quorum three." }
+    ],
+    "membershipTitle": "Membership",
+    "membership": [
+      { "title": "Honorary members", "text": "Open only to members of the clergy. No fee." },
+      { "title": "Ordinary members", "text": "Any individual willing to work for the aims. Annual fee Rs 25 in the original constitution. The Council may revise it." },
+      { "title": "Institutional members", "text": "Registered organisations, or organisations with three years of successful existence, that are not political parties. Annual fee Rs 50 in the original constitution." }
+    ],
+    "financeTitle": "Money and accounts",
+    "finance": "All funds go to the Fund of the Foundation and are kept in banks approved by the Council. Funds may be used only for the aims. The financial year runs from 1 January to 31 December. Accounts are audited by auditors appointed by the General Congress. Any interested person may ask in writing to examine the books.",
+    "emblemTitle": "Emblem",
+    "emblem": "The constitution describes the emblem as a sketch of Sri Lanka on a yellow background, with a pod of rice and a section of a cog wheel at the sides and a punkalasa at the centre, with the name ජාතික සංවර්ධන පදනම inscribed on the right. The logo on this site is the original emblem as approved by the revival committee on 19 October 2026.",
+    "officersTitle": "Office holders on record",
+    "officersNote": "Names appear only where a document records them. The 1997 booklet is a retyped draft for review. The family has approved these names for publication.",
+    "officers": [
+      { "period": "About 1997", "name": "Upali Magedaragamage", "role": "Executive Secretary", "ref": "NDF-PRF-001" },
+      { "period": "About 1997", "name": "Roy Anthony", "role": "Deputy Chairman", "ref": "NDF-PRF-001" },
+      { "period": "About 1997", "name": "V.N.S. Iranganie", "role": "Senior Facilitator", "ref": "NDF-PRF-001" },
+      { "period": "2022", "name": "Upali Magedaragamage", "role": "Executive Secretary", "ref": "" }
+    ],
+    "staffTitle": "Staff and resource persons, about 1997",
+    "staff": "The booklet records a staff of 28 trained in participatory methods, and a pool of resource persons in irrigation, agriculture, nature conservation, marketing, credit, health and nutrition, and water and sanitation. NDF also offered consultancy to other NGOs: proposals, monitoring and evaluation, self evaluation, administration, finance and marketing.",
+    "currentTitle": "The revival team, 2026",
+    "currentText": "The revival is led by the family and friends of Upali Magedaragamage. The team is confirming who is entitled to act for the society under the 1981 registration, and will publish the names of officers once the General Congress has met. Until then no current officer is named here.",
+    "bankersTitle": "Bankers and auditors, about 1997",
+    "bankers": "Bank of Ceylon, Nugegoda. Auditors: Coopers and Lybrand, Colombo 2, and Dayananda Samarawickrema and Co., Nugegoda. Whether these arrangements continue is to be confirmed."
+  },
+  "constitution": {
+    "eyebrow": "About NDF",
+    "title": "The constitution",
+    "lede": "The typewritten English constitution with the amendments of 7 September 1987, retyped for review in October 2026.",
+    "note": "This is a retyped copy of the original typewritten constitution. Obvious typing slips are corrected. Typed page 11, which held Article 19, is missing from the scan. Words that were hard to read are marked [?]. The Sinhala constitution, with later amendments of 1988 and an undated Amendment 03, is in the library.",
+    "amendmentsTitle": "Amendments adopted on 7 September 1987",
+    "amendments": [
+      "Article 17 (i): election of seven members to the Management Council.",
+      "Article 18 (iii): the Council elects a Chairman, one Vice Chairman, a Treasurer and an Executive Secretary.",
+      "Article 18 (v): the Vice Chairman takes charge when the Chairman is unable to act.",
+      "Article 25 (i) and (iii): the Council meets at least once in three months with a quorum of five.",
+      "Article 32 (iv): cheques are signed by the Treasurer, Chairman, Executive Secretary or the Vice Chairman."
+    ],
+    "openTitle": "Points the revival team must decide",
+    "open": [
+      "Registered office. The constitution says Kohuwala. The 1987 meeting was in Nugegoda. The 1994 certificate says Maharagama.",
+      "Council size. Article 17 says seven since 1987. Article 18 still lists fifteen. The Sinhala 1988 amendment says nine.",
+      "Meetings and quorum. The English and Sinhala 1987 amendments differ on how often the Council meets.",
+      "Annual report. Article 34 names the Registrar of Companies. NDF is registered under the Societies Ordinance, so this is likely the Registrar of Societies. The National Secretariat for NGOs may also need reports.",
+      "Membership fees of Rs 25 and Rs 50 are 1980s amounts.",
+      "Honorary membership is limited to the clergy.",
+      "The flag described in Article 4 resembles the national flag.",
+      "The text uses \"his\" throughout."
+    ]
+  },
+  "legal": {
+    "eyebrow": "About NDF",
+    "title": "Legal standing",
+    "lede": "The registration record, and what we are still confirming.",
+    "statusLabel": "Current standing",
+    "states": { "confirmed": "Confirmed", "under_review": "Under review", "unknown": "Unknown" },
+    "underReviewText": "NDF was registered in 1981 under the Societies Ordinance and as an NGO in 1994. The revival team is confirming its current standing with the Registrar of Societies and the National Secretariat for NGOs. Until that is done, this site does not claim that NDF is currently registered.",
+    "checked": "Status last reviewed on 19 October 2026.",
+    "recordsTitle": "The three registration records",
+    "records": [
+      { "id": "NDF-FND-001", "date": "24 July 1981", "title": "Gazette No. 151, Societies Ordinance notification", "text": "The Acting Minister of Trade and Shipping, M. S. Amarasiri, authorises the purpose of the society named Jatika Sangwardana Padanama under sections 3 and 4 of the Societies Ordinance (Chapter 123) and exempts it from sections 5(1) and 5(4). Notification dated 7 July 1981." },
+      { "id": "NDF-FND-002", "date": "15 December 1981", "title": "Registrar of Societies, notice of registration No. 297", "text": "The society is registered under section 3 of the Societies Ordinance at No. 5, S.D.S. Jayasinghe Mawatha, Kohuwala, Nugegoda. The society may not change or add objects without the prior approval of the Minister." },
+      { "id": "NDF-FND-003", "date": "29 March 1994", "title": "Department of Social Services, certificate of registration as an NGO", "text": "Registered No. 0025 under the Monitoring of Receipts and Disbursements of Funds by NGOs Regulation No. 1 of 1993, with effect from 25 March 1994. Reference SS/NGO/2/94. Address in Maharagama." }
+    ],
+    "regimeTitle": "Why the 1994 certificate is not enough",
+    "regimeText": "The 1993 regulation has been replaced. The National Secretariat for NGOs now registers local NGOs that receive foreign funds or work across several districts. A December 2024 press report says registration with the Secretariat is now compulsory. The revival team is asking the Secretariat what NDF needs to do.",
+    "objectsTitle": "Objects cannot change without approval",
+    "objectsText": "The 1981 notice says the society may not change or add to its objects without the Minister's prior approval. The revival will keep the aims in the constitution unless that approval is sought.",
+    "dataTitle": "Data protection",
+    "dataText": "Sri Lanka's Personal Data Protection Act No. 9 of 2022 applies to the forms on this site. See the privacy notice."
+  },
+  "upali": {
+    "eyebrow": "About NDF",
+    "title": "Upali Magedaragamage",
+    "lede": "Executive Secretary of the National Development Foundation. The person the family remembers as its founder.",
+    "intro": "This page holds the facts the records support. A fuller tribute, written by the family, will follow.",
+    "factsTitle": "In the record",
+    "facts": [
+      { "text": "Author and presenter of the paper on NDF's tank renovation at the IIMI and ARTI workshop at Digana, 17 and 18 March 1989.", "ref": "NDF-PRG-003" },
+      { "text": "Author of NDF papers of 1990 and 1991 cited in the IIMI evaluation.", "ref": "NDF-PRG-002" },
+      { "text": "Executive Secretary and first contact person in the NDF introduction booklet of about 1997.", "ref": "NDF-PRF-001" },
+      { "text": "Signed for NDF as Executive Secretary in September 2022.", "ref": "" },
+      { "text": "Advised the Uva Wellassa Women's Organisation and translated for it. That work belongs to UWWO and is not shown on this site.", "ref": "" }
+    ],
+    "familyTitle": "From the family",
+    "familyText": "The family remembers Upali as the person who started NDF in 1979 and who kept it alive for more than four decades. He kept the registration papers, the constitution, the evaluation reports and the correspondence. Those papers are the reason this site exists. The revival of NDF is the family's way of continuing his work.",
+    "spelling": "The 1981 Gazette and the IIMI papers spell the name Magedaragamage. The 1997 booklet spells it Magederagamage. This site uses the Gazette spelling.",
+    "memoriesTitle": "Share a memory",
+    "memoriesText": "If you worked with Upali, studied with him, or farmed in a village where NDF worked, we would like to hear from you. Memories are held for the family and are published only with your permission."
+  },
+  "programmes": {
+    "eyebrow": "The work",
+    "title": "Programmes",
+    "lede": "What NDF did from 1980 onward, as recorded in three documents: a 1989 workshop paper, a 1997 introduction booklet and an undated list of forty activities.",
+    "intro": "Most of what we know about the programmes comes from NDF's own summaries. Only the tank renovation work has independent evaluation. For every other programme we hold a description and no report. Each page says what is documented and what is not.",
+    "projects1997Title": "Nine projects, about 1997",
+    "projects1997Note": "From the NDF introduction booklet. Values are in rupees of the time and are not converted.",
+    "projects1997": [
+      { "n": 1, "title": "Water management and reforestation, Minipe settlement scheme", "support": "Australian Freedom From Hunger Campaign (AFFHC)", "value": "Rs 1.5 million", "period": "1980 to 1983", "slug": "minipe-water-management" },
+      { "n": 2, "title": "Biogas and integrated farming, Kandy, Matale and Kurunegala districts", "support": "AFFHC, Foundation for International Training (Canada), Central Bank of Sri Lanka, Bank of Ceylon, People's Bank", "value": "Rs 3.5 million", "period": "1982 to 1988", "slug": "biogas" },
+      { "n": 3, "title": "Small farmer development, Kurunegala and Puttalam districts", "support": "AFFHC", "value": "Rs 2.0 million", "period": "1986 to 1990", "slug": "small-farmer-development" },
+      { "n": 4, "title": "Renovation of minor irrigation reservoirs, Kurunegala and Puttalam districts", "support": "AFFHC with the Agrarian Services Department and the Irrigation Department", "value": "Rs 5.0 million", "period": "1985 to 1988", "slug": "tank-renovation" },
+      { "n": 5, "title": "Environmental conservation and resource management, Kurunegala and Puttalam", "support": "The Asia Foundation", "value": "Rs 0.5 million", "period": "1990 to 1991", "slug": "environment" },
+      { "n": 6, "title": "Renovation of minor irrigation and self-help village development", "support": "AFFHC and Swiss Intercooperation", "value": "Rs 3.5 million", "period": "1986 to 1999", "slug": "self-help-villages" },
+      { "n": 7, "title": "Muthukandiya rehabilitation, Lower Uva, Moneragala district", "support": "Australian High Commission and AIDAB with the Irrigation Department and the Land Commissioner's Department", "value": "Rs 4.5 million", "period": "1989 to 1993", "slug": "muthukandiya" },
+      { "n": 8, "title": "Self-help village development: tanks, anicuts and lift irrigation, Kurunegala and Puttalam", "support": "Swiss Intercooperation and Community Aid Abroad, Australia", "value": "Rs 13.5 million", "period": "1986 to 1999, ongoing in 1997", "slug": "self-help-villages" },
+      { "n": 9, "title": "Self-help village development in the Dry Zone", "support": "IFAD-assisted North Western Province Dry Zone Participatory Village Development Project", "value": "Rs 1.0 million", "period": "1996 to 1997, ongoing", "slug": "dry-zone" }
+    ],
+    "six1990Title": "Six programmes, about 1990",
+    "six1990Note": "From Upali Magedaragamage's 1989 workshop paper.",
+    "cardsTitle": "Programme pages",
+    "activitiesTitle": "Forty activities from 1980",
+    "activitiesNote": "From an undated Sinhala list typed by NDF, retyped in October 2026. Dates appear where the list gives them. Items marked with an asterisk need confirmation.",
+    "activityGroups": [
+      { "title": "Irrigation and water", "items": [
+        "Water management in the paddy fields of the Minipe canal, 1980 to 1982",
+        "Renovation of about 100 small tanks in Kurunegala and Puttalam districts on the principle of tank, temple, village and stupa, 1981 to 2000. Several abandoned tanks were rebuilt",
+        "A lift irrigation scheme, 1995",
+        "About 50 agricultural wells, from 1991",
+        "An anicut and a new tract of paddy, 1997",
+        "Public wells for drinking water, 1996",
+        "Rehabilitation of the failed Muthukandiya scheme and the Mebedum canal, and strengthening farmer organisations, from 1984"
+      ]},
+      { "title": "Farming, livestock and energy", "items": [
+        "Buffalo bank at Minipe, 1980 to 1981",
+        "Home garden development, 1983 to 1989",
+        "Biogas as an alternative energy source, from 1983",
+        "Biogas and integrated farming, introduced and spread, from 1983",
+        "A loan scheme with the Bank of Ceylon for biogas units, cattle sheds and milk cows, from 1983",
+        "Biogas and integrated farming in Mahaweli System C",
+        "Mantle lamps, stoves and other devices run on biogas. Research with a Canadian technical institute on biogas water pumps and generators at Minipe, 1986",
+        "Seed banks for paddy and other seed, from 1981",
+        "Soil conservation on farm land and home gardens",
+        "Farmer awareness on the harm of chemical fertiliser and pesticide, and a move to organic farming, from 1983"
+      ]},
+      { "title": "Environment and rights", "items": [
+        "Tree planting and environmental conservation on the south bank of the Minipe canal, 1980 to 1982",
+        "Organising people against pine planting on hill country land to prevent erosion",
+        "Farmer awareness and organisation against the water tax law, privatisation of water sources, tobacco growing and thorny coconut planting",
+        "Farmer awareness and organisation to resolve the elephant and human conflict",
+        "Human rights and everyday legal problems, from 1986",
+        "Working with traditional physicians to promote indigenous and Hela medicine, from 1984"
+      ]},
+      { "title": "Children, women and community", "items": [
+        "Children's societies and child development programmes based at religious centres, 1984 to 1986",
+        "Organising women, children and farmers against the drug menace",
+        "Community health and sanitation awareness",
+        "Guiding children to organise their schooling through children's societies",
+        "Adult education through non-formal methods",
+        "Support for children and adults with special needs",
+        "Promoting pottery and reed crafts as local industries"
+      ]},
+      { "title": "Participation, training and networks", "items": [
+        "Pioneering the participatory development approach (PRA) in Sri Lanka, with Robert Chambers, in place of top-down planning",
+        "Training government officers, NGO staff and community activists in PRA",
+        "Pioneering participatory monitoring and evaluation in Sri Lanka, with Alexandra Stephens",
+        "Direct support and consultancy to many NGOs and women's organisations",
+        "An international PRA training programme in Sri Lanka with Professor Robert Chambers",
+        "Community mobilisation for the Janasaviya programme, a government project",
+        "Advisory role to the Janasaviya Trust Fund, a government project",
+        "Social mobilisation for the Gemidiriya programme, a government project",
+        "Participatory marketing awareness and producer organisation under the IFAD North Western Dry Zone programme",
+        "Sri Lanka representative of ACFOD, the Asian Cultural Forum on Development, Thailand"
+      ]}
+    ],
+    "orgsTitle": "People's organisations, about 1997",
+    "orgsNote": "The booklet says NDF had helped form over two hundred people's organisations across the country, and was then working with these in Kurunegala and Puttalam.",
+    "orgs": [
+      { "label": "Farmer organisations", "value": "42" },
+      { "label": "Women's societies", "value": "6" },
+      { "label": "Children's societies", "value": "20" },
+      { "label": "Farmer organisation company", "value": "1" }
+    ],
+    "pages": [
+      { "slug": "tank-renovation", "title": "Tank renovation", "summary": "Ten village tanks in Kurunegala, 1984 to 1987, evaluated by IIMI. The best-documented work NDF did.", "status": "evidence", "img": "tank-work.jpg" },
+      { "slug": "minipe-water-management", "title": "Water management and reforestation, Minipe", "summary": "NDF's first programme, on the south bank of the Minipe canal, 1980 to 1983.", "status": "records", "img": "reforest.jpg" },
+      { "slug": "biogas", "title": "Biogas and integrated farming", "summary": "Household biogas, cattle sheds, loans and a women's programme in Kandy, Matale, Kurunegala and Mahaweli System C.", "status": "records", "img": "biogas.jpg" },
+      { "slug": "buffalo-bank", "title": "Buffalo bank, Minipe", "summary": "Draught buffaloes lent to settler families, with support from the Canadian High Commission.", "status": "records", "img": "buffalo.jpg" },
+      { "slug": "integrated-village", "title": "Integrated village development", "summary": "Five villages, supported by the Australian Freedom From Hunger Campaign, about 1990.", "status": "records", "img": "farmer-society.jpg" },
+      { "slug": "cottage-dairy", "title": "Cottage dairy development", "summary": "Milk cows for households, with the National Livestock Board and national banks.", "status": "records", "img": "dairy.jpg" },
+      { "slug": "small-farmer-development", "title": "Small farmer development", "summary": "Kurunegala and Puttalam, 1986 to 1990, with AFFHC.", "status": "records", "img": "pra.jpg" },
+      { "slug": "environment", "title": "Environmental conservation and resource management", "summary": "Kurunegala and Puttalam, 1990 to 1991, with The Asia Foundation.", "status": "records", "img": "reforest.jpg" },
+      { "slug": "self-help-villages", "title": "Self-help village development", "summary": "Tanks, anicuts and lift irrigation, 1986 to 1999, with Swiss Intercooperation and Community Aid Abroad.", "status": "records", "img": "wells.jpg" },
+      { "slug": "muthukandiya", "title": "Muthukandiya rehabilitation, Moneragala", "summary": "Rehabilitation of a failed settlement scheme in Lower Uva, 1989 to 1993, with Australian support.", "status": "records", "img": "buffalo.jpg" },
+      { "slug": "dry-zone", "title": "Dry Zone participatory village development", "summary": "Work under the IFAD-assisted North Western Province project, 1996 to 1997.", "status": "records", "img": "wells.jpg" },
+      { "slug": "participatory-training", "title": "Participatory methods and training", "summary": "PRA, participatory monitoring and evaluation, and training for officers, NGOs and activists.", "status": "records", "img": "training.jpg" }
+    ],
+    "statusLabels": { "evidence": "Independent evaluation", "records": "Records wanted", "reported": "Reported" }
+  },
+  "programmeDetail": {
+    "minipe-water-management": {
+      "eyebrow": "Programme, 1980 to 1983",
+      "body": [
+        "NDF's first field work was at the Minipe settlement scheme on the Mahaweli, where new settlers farmed under a long canal. Between 1980 and 1982 NDF organised tree planting and environmental conservation on the south bank of the canal, and water management in the paddy fields it served.",
+        "The 1997 booklet records a water management and reforestation programme supported by the Australian Freedom From Hunger Campaign, worth Rs 1.5 million, from 1980 to 1983. The 1989 workshop paper lists water management and re-afforestation as the first of six NDF programmes.",
+        "We hold no project report, photograph or evaluation for this work."
+      ],
+      "refs": ["NDF-PRF-001", "NDF-ACT-001", "NDF-PRG-003"]
+    },
+    "biogas": {
+      "eyebrow": "Programme, 1982 to 1988 and after",
+      "body": [
+        "From 1983 NDF introduced household biogas digesters as an alternative energy source, and spread an integrated farming system in which cattle, biogas, home gardens and paddy supported each other. A loan scheme with the Bank of Ceylon helped families build digesters and cattle sheds and buy milk cows. The programme ran in the Kandy, Matale and Kurunegala districts and was later extended to Mahaweli System C.",
+        "NDF also developed mantle lamps, stoves and other devices to run on biogas, and in 1986 worked at Minipe with a Canadian technical institute on biogas-powered water pumps and generators.",
+        "The 1997 booklet values the programme at Rs 3.5 million between 1982 and 1988, with support from the Australian Freedom From Hunger Campaign, the Foundation for International Training (Canada), the Central Bank of Sri Lanka, the Bank of Ceylon and the People's Bank. The 1989 paper adds a women's programme supported by the Canadian High Commission. The role of each supporter is to be confirmed.",
+        "A costing sheet from September 2022 lists the materials and costs for 6, 8 and 10 cubic metre units. It shows NDF was still working on biogas in 2022. Its prices are from 2022 and are not current."
+      ],
+      "refs": ["NDF-ACT-001", "NDF-PRF-001", "NDF-PRG-003", "NDF-PRG-001"]
+    },
+    "buffalo-bank": {
+      "eyebrow": "Programme, 1980 to 1981",
+      "body": [
+        "At Minipe NDF set up a buffalo bank in 1980 and 1981. Draught animals were lent to settler families to plough and to breed, so that a family could pay back in animals rather than money. The 1989 workshop paper names the Canadian High Commission as the supporter.",
+        "The activities list writes the name with a spelling that could read as Negombo Bank. The reviewers read it as buffalo bank, which matches the 1990 IIMI paper. This needs confirmation.",
+        "We hold no report on how many animals were lent or what became of the scheme."
+      ],
+      "refs": ["NDF-ACT-001", "NDF-PRG-003"]
+    },
+    "integrated-village": {
+      "eyebrow": "Programme, about 1990",
+      "body": [
+        "The 1989 workshop paper lists integrated village development in five villages, supported by the Australian Freedom From Hunger Campaign, as the fourth of six NDF programmes. Village development for NDF meant whatever the village society decided: irrigation, farming, credit, small enterprise, animal husbandry, women's and children's programmes, marketing, conservation, health, nutrition, water and sanitation.",
+        "The 1997 booklet describes a self-help village development programme that continued this work to 1999. We hold no report naming the five villages."
+      ],
+      "refs": ["NDF-PRG-003", "NDF-PRF-001"]
+    },
+    "cottage-dairy": {
+      "eyebrow": "Programme, about 1990",
+      "body": [
+        "Cottage dairy development put milk cows into village households, linked to the biogas and integrated farming programme. The 1989 workshop paper names the National Livestock Board and national banks as partners. The loan scheme with the Bank of Ceylon for cattle sheds and milk cows, from 1983, is part of the same effort.",
+        "We hold no figures on the number of households or animals."
+      ],
+      "refs": ["NDF-PRG-003", "NDF-ACT-001"]
+    },
+    "small-farmer-development": {
+      "eyebrow": "Programme, 1986 to 1990",
+      "body": [
+        "The 1997 booklet lists a small farmer development programme in the Kurunegala and Puttalam districts, worth Rs 2.0 million, supported by the Australian Freedom From Hunger Campaign from 1986 to 1990. The period overlaps with the tank renovation work and the formation of farmer organisations in the same districts.",
+        "Seed banks for paddy and other seed, home garden development and farmer awareness on organic methods, all listed in the activities document, fit this programme.",
+        "We hold no report for it."
+      ],
+      "refs": ["NDF-PRF-001", "NDF-ACT-001"]
+    },
+    "environment": {
+      "eyebrow": "Programme, 1990 to 1991",
+      "body": [
+        "An environmental conservation and resource management programme ran in the Kurunegala and Puttalam districts in 1990 and 1991 with support from The Asia Foundation, worth Rs 0.5 million.",
+        "The activities list records related work: soil conservation on farm land and home gardens, organising hill country people against pine planting, farmer awareness on fertiliser and pesticide harm, and awareness on the human and elephant conflict.",
+        "We hold no report for this programme."
+      ],
+      "refs": ["NDF-PRF-001", "NDF-ACT-001"]
+    },
+    "self-help-villages": {
+      "eyebrow": "Programme, 1986 to 1999",
+      "body": [
+        "The largest programme in the 1997 booklet. Self-help village development in the Kurunegala and Puttalam districts covered renovation of minor irrigation reservoirs, construction of anicut schemes and lift irrigation. Support came from Swiss Intercooperation and Community Aid Abroad, Australia. Two entries in the booklet cover it, worth Rs 3.5 million and Rs 13.5 million, from 1986 to 1999. It was ongoing when the booklet was written.",
+        "The activities list adds about 50 agricultural wells from 1991, a lift irrigation scheme in 1995, public drinking water wells in 1996, and an anicut with a new tract of paddy in 1997. It also says about 100 small tanks were renovated between 1981 and 2000, with several abandoned tanks rebuilt.",
+        "The figure of about 100 tanks comes from NDF's own list. The independent evaluation covers ten. We present both and say which is which."
+      ],
+      "refs": ["NDF-PRF-001", "NDF-ACT-001"]
+    },
+    "muthukandiya": {
+      "eyebrow": "Programme, 1989 to 1993",
+      "body": [
+        "Muthukandiya is a settlement scheme in Lower Uva, Moneragala district. Its irrigation had failed. From 1989 NDF worked on rehabilitation of the scheme and the Mebedum canal and on strengthening the farmer organisations, with the Australian High Commission and the Australian International Development Assistance Bureau, in collaboration with the Irrigation Department and the Land Commissioner's Department. The booklet values the work at Rs 4.5 million to 1993.",
+        "The activities list dates the start of NDF's involvement from 1984.",
+        "We hold no report for this programme."
+      ],
+      "refs": ["NDF-PRF-001", "NDF-ACT-001"]
+    },
+    "dry-zone": {
+      "eyebrow": "Programme, 1996 to 1997",
+      "body": [
+        "Under the IFAD-assisted North Western Province Dry Zone Participatory Village Development Project, NDF ran self-help village development worth Rs 1.0 million in 1996 and 1997, and participatory marketing work: awareness among the target community and organisation of producers for joint marketing.",
+        "The booklet marks this programme as ongoing. We hold nothing after 1997."
+      ],
+      "refs": ["NDF-PRF-001", "NDF-ACT-001"]
+    },
+    "participatory-training": {
+      "eyebrow": "Training and methods",
+      "body": [
+        "NDF's own list credits it with pioneering the participatory development approach in Sri Lanka, with Robert Chambers, in place of top-down planning. It trained government officers, NGO staff and community activists in Participatory Rural Appraisal, hosted an international PRA training programme with Professor Chambers, and introduced participatory monitoring and evaluation to Sri Lanka with Alexandra Stephens.",
+        "By about 1997 NDF had a team of trainers in PRA, Participatory Action Research, Participatory Monitoring and Evaluation, Participatory Technology Development and Participatory Strategic Planning, and offered field sites for case studies.",
+        "NDF also did social mobilisation for the government's Janasaviya and Gemidiriya programmes, advised the Janasaviya Trust Fund, gave consultancy to many NGOs and women's organisations, and represented ACFOD, the Asian Cultural Forum on Development, in Sri Lanka.",
+        "These are NDF's own claims. Dates for most of them are missing. We would welcome training reports, participant lists and photographs."
+      ],
+      "refs": ["NDF-ACT-001", "NDF-PRF-001"]
+    }
+  },
+  "tank": {
+    "eyebrow": "Flagship evidence",
+    "title": "Tank renovation, Kurunegala, 1984 to 1987",
+    "lede": "Ten village tanks. More than 170 farm families. The one NDF programme with independent evaluation.",
+    "problemTitle": "The problem",
+    "problemText": "Small village tanks in the Kurunegala district had silted up. Bunds were low and sluices broken. Fields at the tail end got no water. Farmers cultivated only the head end in the wet season, and sometimes not at all. Cropping intensity was 50 to 80 percent, and in one tank it was zero.",
+    "methodTitle": "The method",
+    "methodText": "NDF began 16 selected tank projects in 1984. Phase I ran to 1987 and completed ten tanks. Each tank went through the same steps, and the village society controlled each step.",
+    "resultsTitle": "The results",
+    "resultsNote": "Figures from the IIMI evaluation by M.H.S. Dayaratne, about 1991, based on a 1990 field survey and NDF files. Read from machine-read text and checked against the table totals.",
+    "chartTitle": "Command area before and after, acres",
+    "chartNote": "Four tanks did not change because no more land was available. The six that grew added 3 to 9 acres each.",
+    "tanks": [
+      { "name": "Aralugaswewa", "farmers": 34, "before": 22, "after": 25 },
+      { "name": "Dalupothuwewa", "farmers": 14, "before": 18, "after": 18 },
+      { "name": "Habawewa", "farmers": 18, "before": 18, "after": 25 },
+      { "name": "Mawathagama Wewa", "farmers": 18, "before": 24, "after": 33 },
+      { "name": "Nabadathenge Wewa", "farmers": 15, "before": 15, "after": 15 },
+      { "name": "Pannala-Aluthwewa", "farmers": 13, "before": 16, "after": 20 },
+      { "name": "Uswewa", "farmers": 22, "before": 24, "after": 24 },
+      { "name": "Wegollagama Wewa", "farmers": 7, "before": 7, "after": 7 },
+      { "name": "Weliagara Wewa", "farmers": 17, "before": 14.5, "after": 19.5 },
+      { "name": "Yakadapotha Wewa", "farmers": 18, "before": 27, "after": 36 }
+    ],
+    "before": "Before",
+    "after": "After",
+    "resultStats": [
+      { "value": "185.5 to 222.5", "label": "Command area in acres (75.2 to 90.1 ha), up 20 percent" },
+      { "value": "50 to 80%", "label": "Cropping intensity before, with one tank at zero" },
+      { "value": "90 to 140%", "label": "Cropping intensity after, in most tanks" },
+      { "value": "6 of 10", "label": "Tanks with rice yields above 5,000 kg per hectare after the work" },
+      { "value": "5 of 10", "label": "Tanks with yields below 2,570 kg per hectare before the work" },
+      { "value": "176", "label": "Farm families in Table 1. The 1989 paper says 172" }
+    ],
+    "yieldTitle": "Rice yield, kg per hectare, number of tanks",
+    "yieldRows": [
+      { "band": "Below 1,900", "before": 1, "after": 0 },
+      { "band": "1,900 to 2,570", "before": 4, "after": 0 },
+      { "band": "2,570 to 3,800", "before": 1, "after": 1 },
+      { "band": "3,800 to 5,000", "before": 4, "after": 3 },
+      { "band": "5,000 to 7,700", "before": 0, "after": 3 },
+      { "band": "Over 7,700", "before": 0, "after": 3 }
+    ],
+    "costTitle": "What it cost and who paid",
+    "costNote": "Over five years, in rupees of the time.",
+    "costs": [
+      { "label": "NDF", "value": "Rs 1,216,500" },
+      { "label": "Farmers, in cash", "value": "Rs 78,000" },
+      { "label": "Farmers, in kind", "value": "Rs 20,000" },
+      { "label": "Government services, estimated", "value": "Rs 300,000" }
+    ],
+    "costText": "Benefits turned positive by the end of the third year. With a 15 percent discount rate, the gross profit margin reached 1.24 by the end of year five. Farmers also set up tank funds, paying half to one bushel of unmilled rice (10.4 to 20.87 kg) per member each season for future repairs.",
+    "fundersText": "Upali Magedaragamage said in discussion that NDF was funded mainly by Australian assistance, and that the Department of Agrarian Services gave technical help free while NDF paid food and transport.",
+    "independentTitle": "The independent view",
+    "unknownTitle": "What we do not know",
+    "unknown": [
+      "Phase II, in Kurunegala and Puttalam, was in progress when the paper was written. Its outcome is not in our records.",
+      "The six tanks started in 1984 but not completed in Phase I. Their names and fate are not recorded.",
+      "Whether the tank funds continued after NDF left.",
+      "NDF's own list says about 100 tanks were renovated between 1981 and 2000. No evaluation covers those."
+    ],
+    "sourcesTitle": "Sources for this page"
+  },
+  "library": {
+    "eyebrow": "Documents",
+    "title": "Library",
+    "lede": "The public documents we hold about NDF, with transcriptions, text quality notes and originals where we may host them.",
+    "intro": "Every fact on this site points to a document here. Registration records are public records and can be downloaded. Papers published by IIMI and IWMI are linked to their publisher. Machine-read text is labelled.",
+    "filterType": "Type",
+    "filterLang": "Language",
+    "filterYear": "Year",
+    "filterProgramme": "Programme",
+    "count": "records",
+    "fields": { "id": "ID", "type": "Type", "language": "Language", "date": "Date", "pages": "Pages", "credit": "Source credit", "licence": "Licence", "quality": "Text quality" },
+    "download": "Download the original (PDF)",
+    "external": "Read at the publisher",
+    "noOriginal": "The original is held by NDF and is not hosted here.",
+    "textTitle": "Text",
+    "summaryTitle": "Summary",
+    "notesTitle": "Notes",
+    "relatedTitle": "Used on these pages",
+    "languages": { "en": "English", "si": "Sinhala", "ta": "Tamil" }
+  },
+  "getInvolved": {
+    "eyebrow": "Revival",
+    "title": "Get involved",
+    "lede": "NDF is restarting. Here is what we need and who we need.",
+    "groups": [
+      { "title": "Former staff and council members", "text": "You know what happened between 1979 and 2022. Tell us when you worked with NDF, where, and what you remember. Even a name and a year helps.", "cta": "I worked with NDF", "kind": "former_staff" },
+      { "title": "Farmers and village societies", "text": "If your tank, well, biogas unit or society came from NDF work, we want to know how it is today. We may ask to visit and take photographs with your consent.", "cta": "Our village worked with NDF", "kind": "community" },
+      { "title": "Funders and partners", "text": "AFFHC, FIT Canada, Swiss Intercooperation, Community Aid Abroad, The Asia Foundation, IFAD and others. If you hold reports or agreements, copies would complete our record. We are also open to talking about the revived NDF's work once legal standing is confirmed.", "cta": "Partner with NDF", "kind": "partner" },
+      { "title": "Researchers and students", "text": "The library holds primary documents on an NGO approach to minor irrigation in the 1980s. Cite them with their document IDs. Ask us for anything that is not yet online.", "cta": "Ask about a document", "kind": "researcher" },
+      { "title": "Volunteers", "text": "We need help with records, Sinhala and Tamil review, field visits, photography, accounts and legal work. Say what you can do and how much time you have.", "cta": "Volunteer", "kind": "volunteer" },
+      { "title": "Donors", "text": "NDF is not taking donations until its legal standing and a bank account in its name are confirmed. Leave your email and we will tell you when that changes.", "cta": "Tell me when", "kind": "donor" }
+    ],
+    "formTitle": "Tell us about yourself",
+    "fields": { "name": "Name", "email": "Email", "phone": "Phone", "role": "I am", "message": "Message", "place": "Village, town or organisation" }
+  },
+  "recordsWanted": {
+    "eyebrow": "Revival",
+    "title": "Records wanted",
+    "lede": "The documents and photographs that would fill the gaps in NDF's story.",
+    "intro": "We are looking for the papers listed below. Originals, copies, scans and photographs are all welcome. We will credit you, return originals, and publish nothing without your consent.",
+    "items": [
+      "Annual reports and audited accounts, any year",
+      "Management Council and General Congress minutes and member lists",
+      "The missing page 11 of the English constitution, which held Article 19",
+      "Project reports and agreements for the biogas, Minipe, buffalo bank, dairy, Muthukandiya and self-help village programmes",
+      "Phase II reports on tank renovation in Kurunegala and Puttalam",
+      "Reports on the Perera (1988) and Vimaladharma (1990) assessments",
+      "Upali Magedaragamage's NDF papers of 1990 and 1991",
+      "Newsletters, brochures and letterhead from any period",
+      "Photographs of tanks, villages, training sessions and staff",
+      "Anything at all from 1998 to 2021"
+    ],
+    "howTitle": "How to send",
+    "how": "Use the form below and describe what you have. If it is large, say so and we will arrange collection or a scan. Files you upload here are held for review and are never published automatically.",
+    "formTitle": "I hold records",
+    "fields": { "name": "Name", "email": "Email", "phone": "Phone", "description": "What do you have?", "file": "Attach a scan or photo (optional, up to 10 MB)" },
+    "fileTooLarge": "The file is larger than 10 MB. Please send a smaller scan, or describe it and we will arrange collection."
+  },
+  "news": {
+    "eyebrow": "Updates",
+    "title": "News",
+    "lede": "Short updates from the revival team.",
+    "posts": [
+      {
+        "slug": "2026-10-revival-and-website",
+        "date": "19 October 2026",
+        "title": "NDF is restarting, and this is its website",
+        "summary": "The family and friends of Upali Magedaragamage have begun reviving the National Development Foundation. This site is the first step.",
+        "body": [
+          "The National Development Foundation did its best-known work in the 1980s and 1990s, in village tanks, biogas units, farmer societies and participatory training. After the 1990s the records thin out. Its Executive Secretary, Upali Magedaragamage, kept the foundation alive on paper until 2022.",
+          "After his death, his family and friends decided to restart NDF. This website is the first public step. It holds every document we have been able to find, transcribed and cited, and it says plainly what we do not yet know.",
+          "The next steps are to confirm NDF's legal standing with the Registrar of Societies and the National Secretariat for NGOs, to gather the missing records, and to reconnect with the people who did the work. We will publish names of office holders once a General Congress has met.",
+          "If you worked with NDF, farmed in a village where NDF worked, or hold any of its papers, please get in touch."
+        ]
+      },
+      {
+        "slug": "2026-10-logo-approved",
+        "date": "19 October 2026",
+        "title": "The original emblem is confirmed as NDF's logo",
+        "summary": "The revival committee decided that NDF will keep its original emblem, exactly as drawn.",
+        "body": [
+          "NDF's constitution describes an emblem with the island of Sri Lanka, a pod of rice, a section of a cog wheel and a punkalasa. The original artwork survives on NDF's letterhead.",
+          "On 19 October 2026 the committee decided to use that artwork without redrawing. It appears on this site in black and in white. A vector version will be needed for print, and we are looking for the original source files."
+        ]
+      },
+      {
+        "slug": "2026-10-constitution-retyped",
+        "date": "17 October 2026",
+        "title": "Constitution, 1997 profile and activities list retyped for review",
+        "summary": "Three typed documents from NDF's files have been retyped so the team can review and correct them.",
+        "body": [
+          "The English constitution with its 1987 amendments, the Sinhala constitution, the introduction booklet of about 1997 and a Sinhala list of forty activities from 1980 onward have been retyped from the originals. Each carries review notes listing the typing corrections made and the points the team must check.",
+          "They are in the library as drafts for review. Please read them and send corrections."
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Contact",
+    "lede": "Write to the revival team. We read every message.",
+    "intro": "NDF has no public office yet. The addresses on its old documents are private homes and are not used. Please use this form. We aim to reply within two weeks.",
+    "formTitle": "Send a message",
+    "fields": { "name": "Name", "email": "Email", "phone": "Phone", "subject": "Subject", "message": "Message" },
+    "subjects": ["General enquiry", "I worked with NDF", "Our village worked with NDF", "I hold records or photographs", "Partnership or funding", "Research request", "Media", "Memory of Upali Magedaragamage", "Something else"],
+    "privacyNote": "We store your message to answer it. See the privacy notice for how long we keep it and how to ask for deletion."
+  },
+  "privacy": {
+    "eyebrow": "Legal",
+    "title": "Privacy notice",
+    "updated": "19 October 2026",
+    "sections": [
+      { "title": "Who we are", "text": "This site is run by the revival team of the National Development Foundation (NDF), Sri Lanka. Until NDF's legal standing is confirmed, the site is operated on its behalf by the family of Upali Magedaragamage. Contact us through the contact form." },
+      { "title": "What we collect", "text": "Forms on this site collect the details you type: name, email, phone, organisation or village, your message, and any file you attach. The newsletter form collects your email, language and interests. We record the time, the consent text you agreed to, and your IP address for spam control." },
+      { "title": "Why we collect it", "text": "To answer you, to reconnect with people who worked with NDF, to review records you offer, and to send the newsletter you asked for. We rely on your consent, which you give by ticking the box on each form." },
+      { "title": "Who sees it", "text": "The revival team. Messages are stored in a database on a server operated for NDF and are emailed to a monitored mailbox. We do not sell or share your details. We do not publish anything you send without asking you first." },
+      { "title": "How long we keep it", "text": "Messages and record offers are kept while the revival continues and for two years after the matter is closed. Newsletter details are kept until you unsubscribe. Files you upload are reviewed within 90 days and deleted if not accepted into the archive." },
+      { "title": "Your rights", "text": "Under the Personal Data Protection Act No. 9 of 2022 you may ask what we hold about you, ask us to correct or delete it, and withdraw consent. Write to us through the contact form. We answer within 30 days." },
+      { "title": "Cookies", "text": "This site sets one cookie to remember your language choice. It sets no tracking or advertising cookies. We do not use third-party analytics." },
+      { "title": "Fonts and images", "text": "Fonts are served from this site. No request goes to Google or any other font provider. Illustrations on this site are AI-generated and are labelled as such. They are not photographs of real people or places." }
+    ]
+  },
+  "terms": {
+    "eyebrow": "Legal",
+    "title": "Terms of use",
+    "updated": "19 October 2026",
+    "sections": [
+      { "title": "About this site", "text": "ndflk.org is the public website of the revival of the National Development Foundation, Sri Lanka. It presents historical documents and the current state of the revival. It is informational." },
+      { "title": "Accuracy", "text": "We publish what the documents say and label the confidence of each fact. Transcriptions are made by machine or by hand from scans and may contain errors. Where we are unsure, we say so. Tell us about mistakes through the contact form." },
+      { "title": "No claim of current registration", "text": "Nothing on this site claims that NDF is currently registered with any authority unless the legal standing page says 'Confirmed' with a dated document." },
+      { "title": "Documents and copyright", "text": "Government gazettes and registration certificates are public records. Papers published by the International Irrigation Management Institute belong to their publisher and are linked, not hosted. NDF's own documents and this site's text may be quoted with attribution to NDF and the document ID. Illustrations are AI-generated and may be reused with credit to ndflk.org." },
+      { "title": "Other organisations", "text": "The Uva Wellassa Women's Organisation (UWWO) is a separate organisation. Nothing on this site describes UWWO's work as NDF's." },
+      { "title": "Donations", "text": "This site does not take donations. Any page or message that asks you to pay NDF is not from us." },
+      { "title": "Changes", "text": "We may change these terms and will show the date of the last change at the top." }
+    ]
+  },
+  "footer": {
+    "about": "The National Development Foundation (NDF) is a Sri Lankan village development organisation established in 1979 and registered in 1981. It is being revived in 2026.",
+    "explore": "Explore",
+    "takePart": "Take part",
+    "legal": "Legal",
+    "illustrationNote": "Illustrations on this site are AI-generated and labelled. No photograph of a real person or village appears without consent.",
+    "copyright": "National Development Foundation, Sri Lanka. Revival site published 19 October 2026.",
+    "builtWith": "Design system and code open for review on GitHub"
+  },
+  "docs": {
+    "NDF-FND-001": { "title": "Gazette No. 151 of 24 July 1981: Societies Ordinance notification", "summary": "The Acting Minister of Trade and Shipping authorises the purpose of the society Jatika Sangwardana Padanama and exempts it from sections 5(1) and 5(4) of the Societies Ordinance. Page 508 of the Gazette." },
+    "NDF-FND-002": { "title": "Registrar of Societies: notice of registration No. 297, 15 December 1981", "summary": "Sinhala notice that the National Development Foundation was registered under the Societies Ordinance on 15 December 1981, with a note that its objects cannot change without the Minister's approval." },
+    "NDF-FND-003": { "title": "Department of Social Services: certificate of registration as an NGO, 1994", "summary": "Registered No. 0025 under the Monitoring of Receipts and Disbursements of Funds by NGOs Regulation No. 1 of 1993, with effect from 25 March 1994." },
+    "NDF-PRG-001": { "title": "Biogas unit construction: raw materials and costs for 6, 8 and 10 cubic metre units, 2022", "summary": "A costing sheet on NDF letterhead from September 2022. Prices are from 2022 and are not current." },
+    "NDF-PRG-002": { "title": "Performance of FMIS improved under NGO assistance: the case of the National Development Foundation in Sri Lanka", "summary": "M.H.S. Dayaratne, International Irrigation Management Institute, about 1991. Evaluates NDF tank renovation in Kurunegala with six indicators: area, production, profitability, resource mobilisation, institutional effectiveness and sustainability." },
+    "NDF-PRG-003": { "title": "Role of non-governmental organizations in the improvement of minor irrigation systems in Sri Lanka", "summary": "Proceedings of the IIMI and ARTI workshop at Digana, 17 and 18 March 1989, published as IIMI Working Paper 18 in 1990. Includes Upali Magedaragamage's paper on NDF's tank renovation and the discussion." },
+    "NDF-PRF-001": { "title": "National Development Foundation: An Introduction, about 1997 (retyped draft)", "summary": "A seven-page introduction booklet: profile, vision, mission, goals, objectives, nine projects, methods, people's organisations, staff, consultancy and training. Retyped for review in October 2026 with notes on corrections and points to check." },
+    "NDF-ACT-001": { "title": "Programmes and activities from 1980 (Sinhala, retyped draft)", "summary": "An undated two-page Sinhala list of forty NDF programmes and activities from 1980 onward, retyped from non-Unicode type in October 2026 with review notes." },
+    "NDF-CON-001": { "title": "The Constitution of the National Development Foundation (English, with 1987 amendments, retyped draft)", "summary": "The typewritten English constitution, 34 articles, and the amendments adopted on 7 September 1987. Typed page 11 with Article 19 is missing. Retyped for review in October 2026." },
+    "NDF-CON-002": { "title": "The Constitution of the National Development Foundation (Sinhala, retyped draft)", "summary": "The Sinhala constitution with amendments of 1987 and 1988 and an undated Amendment 03. Retyped for review in October 2026." }
+  },
+  "errors": {
+    "notFoundTitle": "Page not found",
+    "notFoundText": "The page you asked for is not here. Try the menu, or go to the home page.",
+    "home": "Go to the home page",
+    "apiTitle": "Something went wrong",
+    "apiText": "We could not load this content from the server. Nothing was hidden or replaced with placeholder data. Please try again shortly."
+  }
+}

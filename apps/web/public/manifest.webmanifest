@@ -1,0 +1,1 @@
+{ "name": "National Development Foundation", "short_name": "NDF", "icons": [{ "src": "/logo/icon-512.png", "sizes": "512x512", "type": "image/png" }], "theme_color": "#23603A", "background_color": "#FBF9F4", "display": "browser", "start_url": "/" }

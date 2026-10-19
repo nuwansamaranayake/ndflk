@@ -1,0 +1,120 @@
+/* NDF design tokens. Source: NDF Design System (claude.ai/design project aaa59201), tokens.css, 19 October 2026. Light theme only. */
+:root{
+/* Paddy green: primary */
+--color-paddy-50:#EEF5EF;--color-paddy-100:#D5E8D8;--color-paddy-300:#8FBF98;--color-paddy-500:#3F8A52;--color-paddy-700:#23603A;--color-paddy-800:#1A4A2D;--color-paddy-900:#12341F;
+/* Tank water: accent for links and highlights */
+--color-water-50:#EAF3F6;--color-water-100:#CFE3EA;--color-water-300:#7FB3C4;--color-water-500:#2F7D98;--color-water-700:#17607A;--color-water-800:#0F4A60;--color-water-900:#0A3445;
+/* Clay: secondary, earth */
+--color-clay-50:#FAF0E9;--color-clay-100:#F1DCCB;--color-clay-300:#D49A72;--color-clay-500:#B0663A;--color-clay-700:#8A4522;--color-clay-800:#6B341A;--color-clay-900:#4A2412;
+/* Earth neutrals (warm) */
+--color-earth-0:#FFFFFF;--color-earth-25:#FBF9F4;--color-earth-50:#F4F0E7;--color-earth-100:#E9E3D6;--color-earth-200:#D6CDBB;--color-earth-400:#9A8F7C;--color-earth-500:#7A6F5E;--color-earth-600:#5E5547;--color-earth-700:#4A4238;--color-earth-800:#332D26;--color-earth-900:#211D18;
+/* Status */
+--color-success-700:#276B2E;--color-success-50:#E7F3E6;--color-success-300:#6FA873;
+--color-warning-700:#7A4B00;--color-warning-50:#FDF1D8;--color-warning-300:#D9A441;
+--color-error-700:#A1281D;--color-error-50:#FCE8E5;--color-error-300:#D9786D;
+--color-info-700:#17607A;--color-info-50:#E6F1F5;--color-info-300:#7FB3C4;
+--color-highlight:#F7E6A6;
+--color-sun-300:#F2C14E;
+
+/* Semantic surfaces */
+--surface-page:var(--color-earth-25);
+--surface-card:var(--color-earth-0);
+--surface-sunken:var(--color-earth-50);
+--surface-brand:var(--color-paddy-700);
+--surface-brand-hover:var(--color-paddy-800);
+--surface-brand-tint:var(--color-paddy-50);
+--surface-secondary:var(--color-clay-700);
+--surface-secondary-hover:var(--color-clay-800);
+--surface-secondary-tint:var(--color-clay-50);
+--surface-accent-tint:var(--color-water-50);
+--surface-inverse:var(--color-paddy-900);
+--surface-highlight:var(--color-highlight);
+--surface-disabled:var(--color-earth-100);
+--surface-chip-hover:var(--color-water-100);
+
+/* Semantic text */
+--text-body:var(--color-earth-900);
+--text-muted:var(--color-earth-700);
+--text-subtle:var(--color-earth-600);
+--text-brand:var(--color-paddy-700);
+--text-secondary:var(--color-clay-700);
+--text-link:var(--color-water-700);
+--text-link-hover:var(--color-water-800);
+--text-on-brand:var(--color-earth-0);
+--text-on-secondary:var(--color-earth-0);
+--text-inverse:var(--color-earth-0);
+--text-inverse-muted:var(--color-paddy-100);
+--text-inverse-link:var(--color-water-100);
+--text-disabled:var(--color-earth-600);
+--text-chip:var(--color-water-800);
+
+/* Borders */
+--border-subtle:var(--color-earth-100);
+--border-default:var(--color-earth-200);
+--border-strong:var(--color-earth-500);
+--border-hover:var(--color-earth-700);
+--border-brand:var(--color-paddy-700);
+--border-chip:var(--color-water-300);
+--border-error:var(--color-error-700);
+
+/* Status roles */
+--status-success-fg:var(--color-success-700);--status-success-bg:var(--color-success-50);--status-success-border:var(--color-success-300);
+--status-warning-fg:var(--color-warning-700);--status-warning-bg:var(--color-warning-50);--status-warning-border:var(--color-warning-300);
+--status-error-fg:var(--color-error-700);--status-error-bg:var(--color-error-50);--status-error-border:var(--color-error-300);
+--status-info-fg:var(--color-info-700);--status-info-bg:var(--color-info-50);--status-info-border:var(--color-info-300);
+--status-neutral-fg:var(--color-earth-700);--status-neutral-bg:var(--color-earth-50);--status-neutral-border:var(--color-earth-200);
+
+/* Focus */
+--focus-ring-color:var(--color-water-900);
+--focus-ring-inverse:var(--color-sun-300);
+--focus-ring-width:3px;
+--focus-ring-offset:2px;
+
+/* Typography */
+--font-latin:"Atkinson Hyperlegible Next";
+--font-sinhala:"Noto Sans Sinhala";
+--font-tamil:"Noto Sans Tamil";
+--font-sans:"Atkinson Hyperlegible Next","Noto Sans Sinhala","Noto Sans Tamil","Nirmala UI","Iskoola Pota","Latha",system-ui,-apple-system,"Segoe UI",sans-serif;
+--font-id:var(--font-sans);
+--weight-regular:400;
+--weight-bold:700;
+--text-xs:0.8125rem;
+--text-sm:0.9375rem;
+--text-base:1.0625rem;
+--text-lg:1.25rem;
+--text-xl:1.5rem;
+--text-2xl:1.875rem;
+--text-3xl:2.375rem;
+--text-4xl:3rem;
+--leading-latin-tight:1.2;--leading-latin-snug:1.35;--leading-latin-body:1.55;
+--leading-sinhala-tight:1.5;--leading-sinhala-snug:1.6;--leading-sinhala-body:1.85;
+--leading-tamil-tight:1.45;--leading-tamil-snug:1.55;--leading-tamil-body:1.75;
+--leading-tight:var(--leading-latin-tight);
+--leading-snug:var(--leading-latin-snug);
+--leading-body:var(--leading-latin-body);
+--tracking-caps:0.06em;
+--measure:68ch;
+
+/* Spacing (4px base) */
+--space-0:0;--space-1:0.25rem;--space-2:0.5rem;--space-3:0.75rem;--space-4:1rem;--space-5:1.5rem;--space-6:2rem;--space-7:3rem;--space-8:4rem;--space-9:6rem;
+
+/* Radius */
+--radius-none:0;--radius-sm:2px;--radius-md:4px;--radius-lg:8px;--radius-pill:999px;
+
+/* Shadow */
+--shadow-none:none;
+--shadow-1:0 1px 2px rgba(33,29,24,0.08);
+--shadow-2:0 2px 8px rgba(33,29,24,0.10);
+
+/* Sizing */
+--target-min:44px;
+--container:72rem;
+--container-narrow:44rem;
+--border-width:1px;
+--border-width-strong:2px;
+
+/* Motion */
+--duration-fast:120ms;
+--duration-base:200ms;
+--ease-standard:cubic-bezier(0.2,0,0,1);
+}
